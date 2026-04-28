@@ -1,0 +1,19 @@
+# 忽略 Python 编译产生的缓存文件夹
+__pycache__/
+
+# 忽略所有的 .pyc 编译文件
+*.pyc
+
+# 忽略 PyCharm 的配置文件（这些是你个人的设置，不需要上传）
+.idea/
+
+# 忽略 VS Code 的配置文件（如果你也混用 VS Code）
+.vscode/
+
+# 忽略系统产生的垃圾文件
+.DS_Store
+Thumbs.db
+
+# 忽略虚拟环境文件夹（如果你创建了 venv 或 env）
+venv/
+env/
